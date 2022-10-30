@@ -30,7 +30,7 @@ section {padding: 2rem 9%;}
 }
 .header.active {background-color: var(--black) !important;}
 .header .logo {font-size: 2.5rem; font-weight: bolder; color: var(--white);}
-.header .logo i, .header .logo span {color: var(--green);}
+.header .logo i, .header .logo span, .header .navbar .login-btn i {color: var(--green);}
 .header .navbar a {font-size: 2rem; color: var(--white); margin-left: 2rem;}
 .header .navbar a:hover {color: var(--green);}
 #menu-btn {font-size: 2.5rem; color: var(--white); border-radius: .3rem; padding: .5rem 1.5rem; cursor: pointer; display: none;}
@@ -45,10 +45,6 @@ section {padding: 2rem 9%;}
 .home .content h3 span {color: var(--green);}
 .home .content p {font-size: 2rem; color: var(--white); padding: 1rem 0; line-height: 2;}
 .home .image {flex: 1 1 40rem;}
-.login-btn {
-    padding: .8rem 3rem; border: var(--green-border); color: var(--green); font-size: 1.7rem; cursor: pointer;
-    border-radius: .5rem; position: relative; overflow: hidden; z-index: 0; margin-top: 1rem;
-}
 
 /* Info */
 .info-container {
